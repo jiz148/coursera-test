@@ -1,10 +1,130 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hello Cousera!</title>
-  </head>
-  <body>
-    <h1>Hello Cousera!</h1>
-  </body>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Coursera is Cool!</title><!-- This is a comment -->
+  <style>
+    h1 {
+      color: red;
+      font-size: 36px;
+      text-align: center;
+    }
+    .light_pink {
+      color: #FFB6C1;
+    }
+    #html_entities {
+      color:#87CEFA;
+    }
+    p.big {
+      font-size: 35px;
+    }
+    nav > span {
+      color: blue;
+    }
+    nav object {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>This is a header</h1>
+    <nav>unsually contains links to <span>diff<object>e</object>rent</span> parts of the website</nav>
+  </header>
+  <div><p class="big">Next line by div</p></div>
+  <div><p>Here is next div, <span>saparated by span </span> here it continues in the same line</p></div>
+  <aside><h2>aside</h2>
+    <div>somthing related to the page but not really importent</div>
+    <div>You can open chrom developer tool by ctrl+shift+I</div>
+  </aside>
+  <div class="light_pink"><h2>my diner list</h2>
+    <ul>
+      <li>apple</li>
+      <li>rice</li>
+      <li>choco
+        <ul>
+          <li>black choco</li>
+          <li>white choco</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <section id="html_entities"><h2>HTML entities</h2>
+    <article>
+      <p>This is an exmple&nbsp;including html entities like &lt; and &gt; and &copy;</p>
+    </article>
+  </section>
+  <section><h2 style="text-align: center;">links</h2>
+    <article><h3>internal links</h3>
+      <a href="pseudo-Class-selector-examples.html" title="To Pseudo-Class Selector Examples">
+        <div>
+          To Pseudo-Class Selector Examples
+        </div>
+      </a>
+      <a href="styling-texts.html", title="To Styling Texts">
+        <div>
+          To Styling Texts
+        </div>
+      </a>
+      <a href="box-models.html", title="To Box Models">
+        <div>
+          To Box Models
+        </div>
+      </a>
+      <a href="background-properties.html", title="To Backgroud Propoerties">
+        <div>
+          To Backgroud Properties
+        </div>
+      </a>
+      <a href="floating-elements.html", title="To Floating Elements">
+        <div>
+          To Floating Elements
+        </div>
+      </a>
+      <a href="positioning.html", title="To Positioning">
+        <div>
+          To Positioning
+        </div>
+      </a>
+      <a href="media-queries.html", title="To Media Queries">
+        <div>
+          To Media Queries
+        </div>
+      </a>
+      <a href="responsive-design.html" , title="To Responsive Design">
+        <div>
+          To Responsive Design
+        </div>
+      </a>
+    </article>
+    <article><h3>external links</h3>
+      <a href="https://www.baidu.com" target="_blank" title="to baidu">To Baidu in NEW TAb</a>
+    </article>
+    <article><h3>same page links</h3>
+      <ul>
+        <li><a href="#section1">#section1</a></li>
+        <li><a href="#section2">#section2</a></li>
+        <li><a href="#jump_point">to jump_point</li>
+      </ul>
+    </article>
+  </section>
+  <section id="section1"><h2>section 1</h2>
+    <article>an article</article>
+  </section>
+  <section id="section2"><h2>section 2</h2>
+    <article class="big">article 2</article>
+  </section>
+  <a name="jump_point">jump_point</a>
+  <section><h2>images</h2>
+    <article><h3>internal images</h3>
+      <p>
+        <img src="images/cat4.jpg" width="433" height="433" alt="cat_image_1">
+      </p>
+  </article>
+    <article><h3>external images</h3>
+      <p>
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603019475602&di=932a03db4ead77a0fdc0635cb25b6d29&imgtype=0&src=http%3A%2F%2Falcdn.img.xiaoka.tv%2F20180816%2F60b%2Faca%2F259006457%2F60baca920bc28cf8fdbf34fd7c5807b8.jpg%401e_1c_0o_0l_600h_800w_90q_1pr.jpg" width="800" height="600" alt="cat_image_2">
+      </p>
+    </article>
+  </section>
+</body>
 </html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo-Class Selector Examples</title>
+    <style>
+      header h1{
+        color: blue;
+      }
+      #back:link, #back:visited {
+        text-decoration: none;
+        background-color: #87CEFA;
+        border: 1px solid blue;
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 1px;
+      }
+      #back:hover, #back:active {
+        background-color: #FFB6C1;
+      }
+      header li {
+        background-color: #FAEBD7;
+        border: 1px solid black;
+        display: block;
+        width: 100px;
+        margin-bottom: 1px;
+      }
+      header li:nth-child(2n+1) {
+        background-color: #B0C4DE;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pseudo-Class Selector Examples</h1>
+      <ul>
+        <li>rabbit 1</li>
+        <li>rabbit 2</li>
+        <li>rabbit 3</li>
+        <li>rabbit 4</li>
+        <li>rabbit 5</li>
+      </ul>
+    </header>
+    <a id="back" href="index.html" title="back to main page">
+      <div>
+        Back to Main Page
+      </div>
+    </a>
+  </body>
+</html>

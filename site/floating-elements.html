@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Floating Elements</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      div {
+        background-color: aqua;
+      }
+      p {
+        width: 50px;
+        height: 50px;
+        /*border: 1px solid black;*/
+      }
+
+      #p1 {
+        background-color: #87CEFA;
+        float: left;
+      }
+
+      #p2 {
+        background-color: aquamarine;
+        height: 200px;
+        float: right;
+      }
+
+      #p3 {
+        background-color: beige;
+        clear: both;
+      }
+
+      #p4 {
+        background-color: #FFB6C1;
+      }
+
+      p.two-column {
+        width: 50%;
+        /*border: 1px solid black;*/
+        float: left;
+        padding: 10px;
+      }
+
+      /*#p5 {*/
+      /*  background-color: azure;*/
+      /*}*/
+
+      /*#p6 {*/
+      /*  background-color: bisque;*/
+      /*}*/
+
+      section {
+        clear: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Floating Elements</h1>
+    </header>
+    <br>
+    <div>
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <p id="p3"></p>
+      <p id="p4"></p>
+      <section>
+        this is regular content continuing after the paragraph boxes
+      </section>
+    </div>
+    <br>
+    <h2>Two Column Design</h2>
+    <br>
+    <div>
+      <p id="p5" class="two-column">
+        paragraph 1: lalala mys mys mys
+      </p>
+      <p id="p6" class="two-column">
+        pargraph 2 : lalalallalallala mmmmm yyyyy sssss
+      </p>
+    </div>
+    <br>
+    <a id="back" href="index.html" title="back to main page">
+      <div style="background-color: white">
+        Back to Main Page
+      </div>
+    </a>
+  </body>
+</html>

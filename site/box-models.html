@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Box Models</title>
+    <style media="screen">
+      * {
+        box-sizing: border-box; /* or content-box */
+      }
+      #box {
+        background-color: blue;
+        padding: 10px 10px 10px 10px; /* top right bottom left */
+        border: 5px solid black;
+        margin: 40px;
+        height: 100px;
+        width: 100px;
+        overflow: auto; /* or visible by default or hidden or scroll */
+      }
+      #content {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Box Models</h1>
+    </header>
+    <br>
+    <div id="box">
+      <div id="content">
+        This is the text inside the content
+      </div>
+    </div>
+    <br>
+    <a id="back" href="index.html" title="back to main page">
+      <div>
+        Back to Main Page
+      </div>
+    </a>
+  </body>
+</html>
