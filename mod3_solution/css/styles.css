@@ -1,0 +1,56 @@
+body {
+    font-size: 16px;
+    background-color: #FFB6C1;
+    font-family: Calibri, serif;
+}
+
+/* Header */
+#header-nav {
+    background-color: #2aabd2;
+}
+
+#header-nav h1 {
+    font-family: 'Lora', serif;
+    color: #d39e00;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header {
+    position: relative;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+#nav-list a {
+    color: #951C49;
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    font-weight: bold;
+    background-color: #2b669a;
+}
+
+/* Content */
+.text-center {
+    font-family: Lora, serif;
+    font-size: 1.5em;
+    font-weight: Bold;
+}
+
+#main-content {
+    margin: auto;
+}
+
+#main-content p {
+    height: 1000px;
+}
